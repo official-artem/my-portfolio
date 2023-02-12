@@ -1,4 +1,5 @@
 import { About } from "./components/About/About";
+import { Button } from "./components/AsideButton/Button";
 import { Contact } from "./components/Contact/Contact";
 import { Experience } from "./components/Experience";
 import { Home } from "./components/Home";
@@ -15,6 +16,7 @@ function App() {
       <Portfolio />
       <Experience />
       <Contact />
+      <Button />
 
       <SocialLinks />
     </div>

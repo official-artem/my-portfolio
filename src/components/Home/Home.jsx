@@ -2,6 +2,7 @@ import React from "react";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import MainImage from "../../assets/my-photo.jpg";
+import Typed from 'react-typed';
 
 export const Home = () => {
   return (
@@ -9,12 +10,13 @@ export const Home = () => {
       name="home"
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+      <div className="max-w-screen-lg mx-auto flex flex-col gap-4 items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a Full Stack Developer
+            I'm a Full Stack
           </h2>
-          <p className="text-gray-500 py-4 max-w-md text-justify">
+          <Typed typeSpeed={50} backSpeed={50} loop strings={['Developer', 'Programmer']} className="text-4xl sm:text-7xl font-bold text-white"/>
+          <p className="text-gray-500 py-4 max-w-[50rem] text-justify">
             Hello! In just a year, I've gone from knowing nothing to becoming a
             full stack developer, and I'm thoroughly enjoying the experience.
             I'm looking to join a team where I can continue to grow and develop

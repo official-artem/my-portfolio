@@ -3,7 +3,7 @@ import { socialLinks } from '../../data'
 
 export const SocialLinks = () => {
   return (
-    <div className='hidden lg:flex flex-col top-[35%] left-0 fixed'>
+    <div className='hidden min-[1120px]:flex flex-col top-[35%] left-0 fixed'>
       <ul>
         {socialLinks.map(link => (
           <li 

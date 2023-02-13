@@ -17,7 +17,7 @@ export const Portfolio = () => {
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, src, demo, code }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+            <div key={id} className="shadow-md shadow-gray-600 rounded-lg p-2">
               <img
                 src={src}
                 alt="Bike landing"
@@ -28,7 +28,7 @@ export const Portfolio = () => {
                   href={demo} 
                   rel="noreferrer"
                   target="_blank"
-                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-center"
                 >
                   Demo
                 </a>
@@ -36,7 +36,7 @@ export const Portfolio = () => {
                   href={code} 
                   rel="noreferrer"
                   target="_blank"
-                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-center"
                 >
                   Code
                 </a>

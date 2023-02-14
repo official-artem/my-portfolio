@@ -8,14 +8,17 @@ export const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+      className="min-h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 flex items-center lg:mt-[-3rem]"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col gap-4 items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a Full Stack
-          </h2>
-          <Typed typeSpeed={50} backSpeed={50} loop strings={['Developer', 'Programmer']} className="text-4xl sm:text-7xl font-bold text-white"/>
+          <Typed 
+            loop
+            typeSpeed={50} 
+            backSpeed={50} 
+            className="inline-block text-4xl sm:text-5xl sm:h-[8rem] lg:text-7xl lg:h-[10rem] max-sm:h-[100px] py-4 max-w-[40rem] font-bold text-white "
+            strings={['I\'m a Full Stack Developer', 'I\'m a Front End Developer', 'I\'m a Back End Developer']} 
+          />
           <p className="text-gray-500 py-4 max-w-[50rem] text-justify">
             Hello! In just a year, I've gone from knowing nothing to becoming a
             full stack developer, and I'm thoroughly enjoying the experience.

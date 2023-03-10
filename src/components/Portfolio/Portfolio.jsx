@@ -1,5 +1,5 @@
 import React from "react";
-import { portfolios } from "../../data/portfolios";
+import { portfolioData } from "../../data/portfolioData";
 
 export const Portfolio = () => {
   return (
@@ -16,7 +16,7 @@ export const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, demo, code }) => (
+          {portfolioData.map(({ id, src, demo, code }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg p-2">
               <img
                 src={src}

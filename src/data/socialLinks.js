@@ -38,7 +38,7 @@ export const socialLinks = [
         Resume <BsFillPersonLinesFill size={30} />
       </>
     ),
-    href: '/resume.pdf',
+    href: '/Artem_Hrechuk_CV.pdf',
     style: 'rounded-br-md',
     download: true,
   },

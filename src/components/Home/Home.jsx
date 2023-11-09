@@ -14,7 +14,7 @@ export const Home = () => {
 					</h1>
 					<p className='text-gray-500 py-4 max-w-[50rem] text-justify'>
 						Hello! In just a year, I&apos;ve gone from knowing nothing to
-						becoming a full stack developer, and I&APOS;m thoroughly enjoying
+						becoming a full stack developer, and I&apos;m thoroughly enjoying
 						the experience. I&apos;m looking to join a team where I can continue
 						to grow and develop projects that will be of use to people. I work
 						with React, Node.js, JavaScript, TypeScript, HTML5, CSS3, BEM, SCSS,
